@@ -1,0 +1,11 @@
+#!name=Customize
+#!desc=我的自定义模块
+#!system=mac
+
+[Rule]
+DOMAIN-SUFFIX,ixigua.com,DIRECT
+
+[Script]
+
+[MITM]
+hostname = %APPEND% *.ixigua.com, *.189.cn
