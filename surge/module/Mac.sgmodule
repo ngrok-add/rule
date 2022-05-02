@@ -4,6 +4,7 @@
 
 [Rule]
 DOMAIN-SUFFIX,ixigua.com,DIRECT
+DOMAIN-SUFFIX,qd.pkbook.vip,DIRECT
 
 [Script]
 
