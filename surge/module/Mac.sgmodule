@@ -5,6 +5,8 @@
 [Rule]
 DOMAIN-SUFFIX,ixigua.com,DIRECT
 DOMAIN-SUFFIX,qd.pkbook.vip,DIRECT
+DOMAIN-SUFFIX,jiakaobaodian.com,DIRECT
+DOMAIN-SUFFIX,jiakao-cloud.kakamobi.cn,DIRECT
 
 [Script]
 
