@@ -15,8 +15,8 @@
 电信营业厅签到 = type=cron,cronexp=3 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js
 
 # 小米运动
-小米运动 = type=cron,cronexp="45 18 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/ngrok-add/rule/master/Loon/scripts/xmSport.js
-小米运动获取Token = type=http-response,pattern=^https:\/\/account\.huami\.com\/v2\/client\/login, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/ngrok-add/rule/master/Loon/scripts/xmSport.js
+#小米运动 = type=cron,cronexp="45 18 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/ngrok-add/rule/master/Loon/scripts/xmSport.js
+#小米运动获取Token = type=http-response,pattern=^https:\/\/account\.huami\.com\/v2\/client\/login, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/ngrok-add/rule/master/Loon/scripts/xmSport.js
 
 # 微信去除公众号文章底部广告
 http-response ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
