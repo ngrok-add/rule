@@ -3,18 +3,9 @@
 #!system=mac
 
 [Rule]
-DOMAIN-SUFFIX,ixigua.com,DIRECT
-DOMAIN-SUFFIX,qd.pkbook.vip,DIRECT
-DOMAIN-SUFFIX,jiakaobaodian.com,DIRECT
-DOMAIN-SUFFIX,jiakao-cloud.kakamobi.cn,DIRECT
-DOMAIN-SUFFIX,cdn.bootcdn.net,DIRECT
-DOMAIN-SUFFIX,huya.com,DIRECT
-DOMAIN-SUFFIX,huyaimg.msstatic.com,DIRECT
-DOMAIN-SUFFIX,baidu.com,DIRECT
-DOMAIN-SUFFIX,qq.com,DIRECT
-DOMAIN-SUFFIX,bilibilihelper.com,DIRECT
+DOMAIN-SUFFIX,v8gb.com,DIRECT
 
 [Script]
 
 [MITM]
-hostname = %APPEND% *.ixigua.com, *.189.cn
+hostname = %APPEND%
