@@ -1,0 +1,5 @@
+parsers:
+  - url: https://example.com/profile.yaml
+    yaml:
+      prepend-rules:
+        - DOMAIN,baidu.com,DIRECT # rules最前面增加一个规则
