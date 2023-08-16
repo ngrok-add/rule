@@ -1,5 +1,5 @@
 parsers:
-  - url: https://example.com/profile.yaml
+  - url: https://raw.githubusercontent.com/ngrok-add/rule/master/clash/clash-verge.yaml
     yaml:
       prepend-rules:
         - DOMAIN,baidu.com,DIRECT # rules最前面增加一个规则
